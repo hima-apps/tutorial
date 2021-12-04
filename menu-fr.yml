@@ -1,0 +1,38 @@
+---
+language: fr
+---
+- title: '<i class="material-icons">home</i> Accueil'
+  link: '{{ page.getRootRelativeURL() }}fr/'
+  weight: 0
+  children:
+  - title: 'Lorem ipsum'
+    link: '{{ page.getRootRelativeURL() }}fr/#lorem-ipsum'
+    weight: 0
+  - title: 'Éléments'
+    link: '{{ page.getRootRelativeURL() }}fr/#%C3%A9l%C3%A9ments'
+    weight: 1
+
+- title: '<i class="material-icons">book</i> Autre Page'
+  link: 'page.html'
+  weight: 1
+  children:
+    - title: 'Premier Paragraphe'
+      link: 'page.html#premier-paragraphe'
+      weight: 0
+    - title: 'Second Paragraphe'
+      link: 'page.html#second-paragraphe'
+      weight: 1
+    - title: 'Troisième Paragraphe'
+      link: 'page.html#troisi%C3%A8me-paragraphe'
+      weight: 2
+
+- title: '<i class="material-icons">language</i> Langage'
+  link: '#'
+  weight: 1
+  children:
+    - title: 'Français'
+      link: '{{ page.getRootRelativeURL() }}fr/'
+      weight: 0
+    - title: 'English'
+      link: '{{ page.getRootRelativeURL() }}en/'
+      weight: 1

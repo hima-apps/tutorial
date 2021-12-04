@@ -1,0 +1,6 @@
+project_name: SkyDocs
+project_description: SkyDocs is a lightweight static documentation builder with MarkDown.
+project_url: https://skydocs.skyost.eu
+
+default_language: en
+lunr_search: true
